@@ -1,0 +1,168 @@
+{
+  "version": 12,
+  "run_date": "2026-10-16",
+  "results": [
+    {
+      "name": "페이지 제목 v12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "상단 우측 v12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "12개 도시 카드",
+      "pass": true,
+      "detail": "12"
+    },
+    {
+      "name": "60개 관광지 데이터",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "사진 출처 32장",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "사진 연결 관광지 28곳",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "외부 사진 실패시 대체 이미지",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "오사카 5개 관광지",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "도톤보리 다중 사진",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "상세정보 모달",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "갤러리 사진 2개",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "갤러리 선택 활성화",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "갤러리 저작자 표시",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "사진 있는 관광지만 필터",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "사진 필터 해제",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "일정 추가",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "인원 반영",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "항공 숙박 경비 계산",
+      "pass": true,
+      "detail": "{'people': 2, 'rooms': 1, 'nights': 4, 'activities': 0, 'total': 1000000}"
+    },
+    {
+      "name": "현지 통화 환산",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "백업 포맷 v12",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "브라우저 저장",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "새로고침 후 저장 유지",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "저장목록 화면",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "저장목록 항목",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "JS 런타임 오류 없음",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "모바일 상단 버전",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "모바일 가로 넘침 없음 - 탐색",
+      "pass": true,
+      "detail": "[360, 360]"
+    },
+    {
+      "name": "모바일 가로 넘침 없음 - 일정",
+      "pass": true,
+      "detail": "[360, 360]"
+    },
+    {
+      "name": "타이베이 사진 필터 3곳",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "모바일 지우펀 2장 갤러리",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "모바일 JS 오류 없음",
+      "pass": true,
+      "detail": "[]"
+    }
+  ],
+  "passed": 31,
+  "total": 31,
+  "notes": [
+    "실제 Wikimedia 이미지 로딩은 네트워크 차단 후 대체이미지 로직을 확인한 테스트입니다.",
+    "GitHub 업로드 또는 실서비스 배포는 수행하지 않았습니다.",
+    "브라우저 저장은 about:blank의 보안 제한으로 모의 localStorage를 사용했고, 화면 재생성 후 데이터 유지까지 확인했습니다. 실제 웹사이트의 저장 지속성은 미검증입니다."
+  ]
+}
