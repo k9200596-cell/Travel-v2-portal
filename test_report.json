@@ -1,0 +1,205 @@
+{
+  "version": 18,
+  "tested_at": "2026-10-16",
+  "method": "HTML/JSON structural checks with BeautifulSoup and isolated JavaScript functional tests with Node.js VM. Browser end-to-end tests not possible: managed Chromium policy blocks all URL navigation, including localhost/file.",
+  "checks": [
+    {
+      "name": "HTML 주요 영역 존재",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "중복 HTML id 없음",
+      "status": "PASS",
+      "detail": "108"
+    },
+    {
+      "name": "HTML 버전 오른쪽 상단",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "모바일 바로가기 4개",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "반응형 CSS 규칙 존재",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "사진 오류 대체 처리 소스 존재",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "일정 저장 및 JSON 백업 코드 유지",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "여행 경비 및 실제 항공료 입력 코드 유지",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "여행 일정 및 인쇄 코드 유지",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "사진 저작권 UI 및 다운로드 유지",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "유료 API 호출 없음",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "GitHub 자동 배포 코드 없음",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "사진 JSON 74장",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "사진 출처 중복 없음",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "신규 사진 원본 확인 5장",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "사진 저작권 메타데이터",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "신규 사진 2장 포함",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "외부 사진 URL 원본 표기",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "기존 72장 보존",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "JavaScript 구문 검사",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "JS 데이터 12개 도시",
+      "status": "PASS",
+      "detail": "12"
+    },
+    {
+      "name": "JS 데이터 60개 관광지",
+      "status": "PASS",
+      "detail": "60"
+    },
+    {
+      "name": "JS 사진 74장",
+      "status": "PASS",
+      "detail": "74"
+    },
+    {
+      "name": "JS 관광지 사진 60곳 연결",
+      "status": "PASS",
+      "detail": "60"
+    },
+    {
+      "name": "JS 신규 막탄 사진 갤러리",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "JS 신규 몽콕 사진 갤러리",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "JS 겹치는 일정 검출",
+      "status": "PASS",
+      "detail": "1"
+    },
+    {
+      "name": "JS 겹침 부족 시간 계산",
+      "status": "PASS",
+      "detail": "45"
+    },
+    {
+      "name": "JS 정상 일정 겹침 없음",
+      "status": "PASS",
+      "detail": "0"
+    },
+    {
+      "name": "JS 사용자 일정 기본 체류시간",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "JS 잘못된 시간 입력 거부",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "JS 정상 시간 입력",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "JS 최근 사진 필터",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "JS 촬영일 정렬",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "JS 5일 일정 계산",
+      "status": "PASS",
+      "detail": "5"
+    },
+    {
+      "name": "JS 항공료+숙박비 계산",
+      "status": "PASS",
+      "detail": "960000"
+    },
+    {
+      "name": "JS 저장 포맷 이동시간 포함",
+      "status": "PASS",
+      "detail": "(30, 6)"
+    },
+    {
+      "name": "JS 런타임 함수 검사",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "passed": 38,
+  "failed": 0,
+  "limitations": [
+    "No Chromium UI, mobile layout screenshot, or real browser localStorage test was possible because of URLBlocklist policy.",
+    "External photo URLs were not loaded in a browser; all 74 external images are unverified for live loading.",
+    "Only 5 photo source pages checked in this run; other 69 entries inherited.",
+    "No GitHub upload or deployment, no paid API."
+  ]
+}
